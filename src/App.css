@@ -1,0 +1,27 @@
+      .app-container{
+        display: flex;
+        max-width: 600px;
+        margin: auto;
+        height: 100vh;
+        flex-direction: column;
+      }
+
+      .welcome-message {
+        text-align: center;
+        color: #666;
+        margin: 20px 0;
+        font-size: 18px;
+      }
+
+      .loading-spinner {
+        margin: -15px;
+        height: 40px;
+      }
+
+
+            .chat-container{
+        flex-grow: 1; 
+        margin-top: 20px;
+        overflow: scroll;
+        scrollbar-width: none; 
+      }
